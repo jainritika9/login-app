@@ -28,7 +28,7 @@ class Login extends React.Component{
   render(){
     return(
       <div>
-         <Router>
+         <Router basename={process.env.PUBLIC_URL}>
          <Route exact path='/'>
   <Grid textAlign='center' style={{ height: '100vh' }} verticalAlign='middle'>
     <Grid.Column style={{ maxWidth: 450 }}>
