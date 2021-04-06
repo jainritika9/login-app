@@ -1,4 +1,5 @@
 import React from 'react'
+import pic from './me.jpg'
 import {List,Grid,Image,Icon} from 'semantic-ui-react'
 class AboutMe extends React.Component{
     render(){
@@ -10,8 +11,8 @@ class AboutMe extends React.Component{
     <p style={{fontSize:20}}>Currently, I am Persuading my Graduation in B-Tech from Tecjno Njr Institute in Computer Science.My strength is I'm a self-motivated, quick learner and creative.My objective is to fully utilize my skills and knowledge and further enhance them.In my free time i enjoy doing sketching and painting.
     </p>
     </Grid.Column>
-    <Grid.Column floated='right' width={4}>
-    <Image src='https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F143814380_1822759084566718_8543658411966612_n.jpg%3Foh%3Dc7ac6c1b0119ef416507858fda614dd7%26oe%3D6064B29C&t=l&u=917073537411%40c.us&i=1611753621&n=F2CquhQinrYRH0rMSVgmZpOMiAzW0evhckqpgpOe0k4%3D' size='medium' circular />
+    <Grid.Column floated='right' width={5}>
+    <Image src={pic} size='medium'  />
     </Grid.Column></Grid>
       <Grid.Row columns={3}>
       <Grid.Column>
